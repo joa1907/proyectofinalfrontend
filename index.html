@@ -1,26 +1,309 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="user-solid.svg">
+    <script src="https://kit.fontawesome.com/9161a56175.js" crossorigin="anonymous"></script>
     <title>CV WEB</title>
 </head>
+
 <body>
-        <div class="navbar">
-                <nav>
-                    <div class="persona">
-                            <img src="https://randomuser.me/api/portraits/men/81.jpg" alt="foto">
-                            <p class="nombre">Eduardo James</p>
-                            
+    <aside>
+        <nav class="navbar">
+            <div class="centernav">
+                <div class="avatar">
+                    <img src="https://randomuser.me/api/portraits/men/81.jpg" alt="foto">
+                    <div class="avatar-name">
+                        <p class="nombre">BEN BAILEY</p>
                     </div>
 
 
 
-                </nav>
+                </div>
+                <ul class="nav-list">
+                    <li>
+                        <a href="#inicio"><i class="fa-solid fa-house"></i> INICIO</a>
+                    </li>
+                    <li>
+                        <a href="#data"><i class="fa-solid fa-user"></i> DATOS PERSONALES</a>
+                    </li>
+                    <li>
+                        <a href="#exp"><i class="fa-solid fa-file"></i> EXPERIENCIA</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio"><i class="fa-solid fa-paperclip"></i> PORTFOLIO </a>
+                    </li>
+                    <li>
+                        <a href="#contacto"><i class="fa-solid fa-envelope"></i> CONTACTO</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="aside-footer">
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </ul>
 
 
+            </div>
+        </nav>
+    </aside>
+    <div class="fondo">
+        <div id="particles-js"></div>
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+        <script src="particles.js"></script>
+    </div>
+
+    <div class="contenedor">
+        <section id="inicio" class="secciones">
+
+            <div class="sec_ini">
+                <h1>BEN BAILEY</h1>
+            </div>
+
+        </section>
+        <section id="data" class="secciones">
+            <div class="sec_data">
+                <h2><span>sobre mi</span></h2>
+                <div class="div-presentacion">
+                    <p>Hola! Me llamo Ben Bailey</p>
+                    <p>Soy desarrollador WEB y este es mi CV</p>
+                </div>
+
+
+                <div class="div-cajadatos">
+                    <p>Datos personales:</p>
+
+                    <table class="tabla-datos">
+                        <tr>
+                            <td class="tipo">DNI</td>
+                            <td>94.655.527</td>
+                        </tr>
+                        <tr>
+                            <td class="tipo">Fecha de nacimiento</td>
+                            <td>10/2/1979</td>
+                        </tr>
+                        <tr>
+                            <td class="tipo">Localidad</td>
+                            <td>Cierrahaven, Florida</td>
+                        </tr>
+                        <tr>
+                            <td class="tipo">Direccion</td>
+                            <td>183 Hugh Crossroad</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+        </section>
+        <section id="exp" class="secciones">
+            <div class="sec_exp">
+                <div class="div_exp">
+                    <h2><span>experiencia laboral</span></h2>
+                    <ul>
+                        <li>
+                            <p>Empresa Mayer Fritsch: Desarrollador frontend con JavaScript</p>
+                        </li>
+                        <li>
+                            <p>Waters Group Company: Desarrollo y gestión de bases de datos MySQL</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="div_est">
+                    <h2><span>estudios</span></h2>
+                    <p>Ingeniero en sistemas en La Universidad de Florida</p>
+                </div>
+                
+                <div class="container_card">
+                    <h2><span>habilidades</span></h2>
+                    <div class="card c1">
+                        <div class="icon">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div id='caja_0' class="info_description">
+                            <p>HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el
+                                componente más básico de la Web. Define el significado y la estructura del contenido
+                                web. Además de HTML, generalmente se utilizan otras tecnologías para describir la
+                                apariencia/presentación de una página web o la funcionalidad/comportamiento.
+                            </p>
+                            <button id='btn_0' class="btn_card">Leer Más</button>
+                        </div>
+                    </div>
+                    <div class="card c2">
+                        <div class="icon">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <div id='caja_1' class="info_description">
+                            <p> Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de
+                                estilos utilizado para describir la presentación de documentos HTML o XML. CSS describe
+                                como
+                                debe ser renderizado el elemento estructurado en la pantalla, en papel, en el habla o en
+                                otros medios.</p>
+                            <button id='btn_1' class="btn_card">Leer Más</button>
+                        </div>
+                    </div>
+                    <div class="card c3">
+                        <div class="icon">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <div id='caja_2' class="info_description">
+                            <p>JavaScript es un lenguaje de programación ligero, interpretado, o compilado
+                                justo-a-tiempo con funciones de primera clase. Si bien es más conocido
+                                como un lenguaje de scripting para páginas web, es un lenguaje de programación basada en
+                                prototipos,
+                                multiparadigma, dinámico, con soporte para programación orientada a objetos, imperativa
+                                y
+                                declarativa</p>
+                            <button id='btn_2' class="btn_card">Leer Más</button>
+                        </div>
+                    </div>
+                    <div class="card c4">
+                        <div class="icon">
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+                        <div id='caja_3' class="info_description">
+                            <p> React es una biblioteca Javascript de código abierto diseñada para crear interfaces de
+                                usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página.
+                                Es mantenido por Facebook y la comunidad de software libre. En el proyecto hay más de
+                                mil desarrolladores libres.
+                            </p>
+                            <button id='btn_3' class="btn_card">Leer Más</button>
+                        </div>
+                    </div>
+                    <div class="card c5">
+                        <div class="icon">
+                            <i class="fa-brands fa-php"></i>
+                        </div>
+                        <div id='caja_4' class="info_description">
+                            <p>PHP es un lenguaje de programación interpretado​ del lado del servidor y de uso general
+                                que se adapta especialmente al desarrollo web.​ Fue creado inicialmente por el
+                                programador danés-canadiense Rasmus Lerdorf en 1994.​ En la actualidad, la
+                                implementación de referencia de PHP es producida por The PHP Group.</p>
+                            <button id='btn_4' class="btn_card">Leer Más</button>
+                        </div>
+                    </div>
+                    <div class="card c6">
+                        <div class="icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <div id='caja_5' class="info_description">
+                            <p>MySQL es un sistema de gestión de bases de datos relacional desarrollado bajo licencia
+                                dual: Licencia pública general/Licencia comercial por Oracle Corporation y está
+                                considerada como la base de datos de código abierto más popular del mundo,1​2​ y una de
+                                las más populares en general junto a Oracle y Microsoft SQL Server, todo para entornos
+                                de desarrollo web.</p>
+                            <button id='btn_5' class='btn_card'>Leer Más</button>
+                        </div>
+                    </div>
+                    <script src="boton.js"></script>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section id="portfolio" class="secciones">
+            <div class="contenido_seccion">
+                <h2><span>portfolio</span></h2>
+
+            <div class="galeria">
+
+                <div class="proyecto">
+                    <img src="https://imgs.search.brave.com/uh9s4YFoW7NGbf1iS2PyKi6YEG9gUc6oc8HjJCb9ONM/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvcHJl/dmlld3MvMDAwLzUx/OC85NDcvb3JpZ2lu/YWwvbW9kZXJuLWZs/YXQtd2ViLXBhZ2Ut/ZGVzaWduLXRlbXBs/YXRlLWNvbmNlcHQt/b2Ytb25saW5lLWVk/dWNhdGlvbi1kZWNv/cmF0ZWQtcGVvcGxl/LWNoYXJhY3Rlci1m/b3Itd2Vic2l0ZS1h/bmQtbW9iaWxlLXdl/YnNpdGUtZGV2ZWxv/cG1lbnQtZmxhdC1s/YW5kaW5nLXBhZ2Ut/dGVtcGxhdGUtdmVj/dG9yLWlsbHVzdHJh/dGlvbi5qcGc" alt="img1">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Página web</p>
+                    </div>
+                </div>
+                
+                <div class="proyecto">
+                    <img src="https://imgs.search.brave.com/PSewGaRmrXxt4fcetGgaGvVYHL9LV7gSNSkPJEYqQ3o/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzE2Njgx/Mjgvc2NyZWVuc2hv/dHMvMTIzMzIyMzcv/bWVkaWEvMGJjZWMy/Y2ZlM2NhMTdiODE5/ZWUxYjNlNTJjZTE2/NzYucG5n" alt="img2">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Página web</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="https://imgs.search.brave.com/9VIwZX8lmicaX17Hu473ZktxFu6YhsvwtlL0fowMOZ8/rs:fit:1000:714:1/g:ce/aHR0cHM6Ly9jb2xv/cmxpYi5jb20vd3Av/d3AtY29udGVudC91/cGxvYWRzL3NpdGVz/LzIvYWljYWctZWR1/Y2F0aW9uLXdlYnNp/dGUtZXhhbXBsZS11/c2luZy1iZXRoZW1l/LmpwZw" alt="img3">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Página web</p>
+                    </div>
+                </div>
+                
+                
+                <div class="proyecto">
+                    <img src="https://imgs.search.brave.com/CCa_WdoN-gZbCuaDB7U3bDBb6Ma32H28j6UMedX8IjE/rs:fit:1025:552:1/g:ce/aHR0cHM6Ly9saDYu/Z29vZ2xldXNlcmNv/bnRlbnQuY29tL3By/b3h5L2cxbGZabXdo/SU5GMWZxMm15MmVV/YTZXMWgyQ3FmdTN1/RmVySmt5UG5NN1JN/cVNBR0NSbHZsU3Nn/Qjh1M1hjYXRmTDBE/STBVOFNxTnRnMzA0/OEhHbm42OGo0UkN1/V0FLX0ZfRzVOUW05/R0VXUkpfNFBlZjQ9/dzEyMDAtaDYzMC1w/LWstbm8tbnU" alt="img4">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Página web</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="https://imgs.search.brave.com/nDXmKMcVVZsOoFTLArC3SGHdN7DESRBAgBRbeHZXMkE/rs:fit:1200:691:1/g:ce/aHR0cHM6Ly9hc3Nl/dHMtZ2xvYmFsLndl/YnNpdGUtZmlsZXMu/Y29tLzYwMDllYzhj/ZGE3ZjMwNTY0NWM5/ZDkxYi82MDJmMjEw/OWE3ODdjMTQ2ZGNi/ZTJiNjZfNjAxYjFj/MWY3NTY3YTczOTkz/NTNmZTQ3X3RyYWFj/a3IuanBlZw" alt="img5">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Página web</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="https://imgs.search.brave.com/mSCjo8J477YIH4mw9_Xod8sMWRwM71V0rZYS5Yjn0Ks/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzg2Lzc0/L2RjLzg2NzRkY2I3/YmQzNzkxNjhiMDMz/M2MxZDM5YWEyZTRk/LmpwZw" alt="img6">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Página web</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
+        </section>
+
+        <section id="contacto" class="secciones">
+
+            <div class="sec_cont">
+                <h2><span>contacto</span></h2>
+
+                <div class="container_form">
+                    <div class="contact-info">
+                        <p>Para cualquier consulta puedes enviarme un mail por aqui</p>
+                        <a href="#contacto"><i class="fa-solid fa-phone"></i>123-142-123</a>
+                        <a href="#contacto"><i class="fa-solid fa-envelope"></i>ben.bailey@email.com</a>
+                    </div>
+                    <div class="formulario">
+                        <form action="" id="form">
+                            <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo" required>
+                            <input type="email" name="email" id="email" placeholder="Ingresa tu correo" class="campo" required>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingresa tu mensaje" required></textarea>
+                            <br>
+                            <input type="submit" name="enviar" id="enviar" class="btn-enviar" value="Enviar Mensaje">
+                        </form>
+
+                        <script>
+                        
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
 </body>
+
 </html>
